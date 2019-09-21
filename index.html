@@ -1,108 +1,22 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>matsve</title>
-        <style>
-            body {
-                background-color: #111111;
-                color: #000000;
-                margin: 0px;
-                font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
-                font-size:15px;
-            }
-            .root {
-                display: table;
-                width: 1000px;
-                margin: 0 auto;
-                border-left: solid 10px #cc2277;
-                border-right: solid 3px #cc2277;
-            }
-            .root-wrapper {
-                background-color: #777777;
-            }
-            .menu {
-                width: 200px;
-                display: table-cell;
-                background-color: #333;
-            }
-            .content a { text-decoration: none; color: #cc2277; border-radius: 3px; padding: 0px 2px 0px 2px; }
-            .content a:hover { color: #aa0055; text-decoration: underline; }
-            .menu ul { list-style-type: none; margin: 0px; padding: 0px; }
-            .menu ul li a { color: #888888; display: block; border-radius: 0px; border-left: solid 3px transparent; padding: 5px 5px 5px 35px; text-decoration: none; }
-            .menu ul li a:hover { background-color: #cc2277; color: #eeeeee; border-radius: 0px; }
-            .menu .section { margin-bottom: 20px; }
-            .menu .header { color: #666666; margin-left: 20px; }
-            .content {
-                display: table-cell;
-                background-color: #ffffff;
-                color: #000000;
-                padding: 10px 20px 60px 20px;
-                box-shadow: inset 4px 1px 9px -6px #000000;
-            }
-            .footer {
-                background-color: transparent;
-                text-align: center;
-                padding: 50px;
-                text-shadow: 0px 0px 3px #000000;
-                color: #555555;
-                box-shadow: 0px -3px 3px #050505;
-            }
-        	@media (max-width: 480px){
-                .root {
-                    display: block;
-                }
-                .menu {
-                    width: 100%;
-                    display: block;
-                }
-                .menu .header { display: none; }
-                .menu .section { margin-bottom: 0px; }
-        	}
-        	@media (min-width: 768px){
-        	}
-        	@media (max-width: 1024px){
-                .root {
-                    width: 100%;
-                    border: none;
-                }
-        	}
-        	@media (min-width: 1400px){
-        	}
-        	@media (min-width: 1600px){
-        	}
-        </style>
-    </head>
-    <body>
-        <div class="root-wrapper">
-            <div class="root">
-                <div class="menu">
-                    <div class="section">
-                        <div class="header">
-                            Matsve
-                        </div>
-                        <ul>
-                            <li><a href="?">Home</a></li>
-                        </ul>
-                    </div>
-                    <div class="section">
-                        <div class="header">
-                            External
-                        </div>
-                        <ul>
-                            <li><a href="https://github.com/matsve">My Github page</a></li>
-                            <li><a href="https://github.com/matsve/Ini">Github/Ini</a></li>
-                            <li><a href="https://github.com/matsve/Custom-Script-Language">Github/CSL</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2>matsve</h2>
-                    <p>This is the home page of matsve. I am a programmer that focuses on user experience, both from a developer perspective and a user perspective. Libraries should be powerful but still simple to use and user interfaces should be visually appealing and easy to use while still putting the full power in the hands of the user.</p>
-                    <p>Two of my projects that is worth checking out is Ini and CSL, both available as open source-projects on Github (links to the left). Ini is written in C# and is a minimalistic approach to an ini-file handling library. It's super easy to make use of but at the same time quite powerful.<br />CSL (Custom Script Language) is the same, but for scripts instead of ini files. There are a quick example of how it works on the project page on Github, and it is implemented for both C++ and C#.</p>
-                </div>
-            </div>
+  <head>
+    <title>matsve</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="root-wrapper">
+      <div class="root">
+        <div class="content">
+          <h2>matsve</h2>
+          <p>
+            This is the home page of <a href="#"></a> matsve.
+          </p>
         </div>
-        <div class="footer">
-            Copyright &copy; 2015 matsve
-        </div>
-    </body>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; 2019 matsve
+    </div>
+  </body>
 </html>
